@@ -31,6 +31,9 @@ console.log(fruits);
 console.log(`-----------------------Before any Method-----------------------`);
 // ******************* length
 // console.log(fruits.length);
+// fruits[0] = "Kiwi";
+// fruits[fruits.length] = "kiwi"
+// console.log(fruits)
 
 // ******************* string
 // console.log(fruits.toString());
@@ -52,9 +55,38 @@ console.log(`-----------------------Before any Method-----------------------`);
 // console.log(fruits+ ' push element ')
 
 
-// ********************  shifting element
+// ********************  shifting 
 // **** shift will remove first element from array
 // fruits.shift()
 // console.log(fruits)
-// 
 
+// ********************  unshift 
+// **** it will add element at start of array and return new array length
+// fruits.unshift("Lemon");
+// console.log(fruits)
+
+// ********************  delete
+// delete fruits[0]; // it will index from array
+// console.log(fruits, ' after delete')
+ 
+
+// ********************  splice 
+// fruits.splice(2, 0, "Array-Lemon", "Array-kiwi");
+// console.log(fruits)
+
+// ********************  slice
+// const citrus = fruits.slice(1, 3) 
+// console.log(citrus)
+
+
+/**
+ * slice splice
+ * toString
+ * delete           delete myArray[1]  and at delete index it marks undefined
+ * shift unshift
+ * push pop
+ * join        myArray.join("*")
+ * length
+ * concat   will concat first array to another arry like myArray1.concat(myArray2) 
+ * flat  [[1,2], [2,3]] return [1,2,2,3]    myArr.flat()
+ */
