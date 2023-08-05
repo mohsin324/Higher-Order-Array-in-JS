@@ -93,6 +93,12 @@ console.log('----------------before any method----------------');
 // console.log('text length '+ text.length)
 
 
+// *****************O indexOf()
+// console.log(text.indexOf('Doe'))
+console.log(text.lastIndexOf('Doe'))
+
+
+
 
 
 
