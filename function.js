@@ -95,6 +95,12 @@ console.log(`---------Starts Learning Function's and Methods in JS---------`);
 // }
 // let fullName = person.fullName.bind(member);
 // console.log(fullName(), ' full name ')
+// **************************** difference between call apply and bind
+// call takes argument seprately
+// apply takes argument in Array
+// bind create new function
+
+
 
 // function counter(){
 //     let count = 0;
@@ -106,16 +112,21 @@ console.log(`---------Starts Learning Function's and Methods in JS---------`);
 // console.log(counter()+' 3')
 
 
-function hello1 (){
-    // return "Mohsin Munir"
-    // let another = () => {
-    //     console.log('anohter functino ')
-    // }
-    return "another"
-}
-let c = hello1;
-c()
-console.log(c()+' : c ')
+// function hello1 (){
+//     // return "Mohsin Munir"
+//     // let another = () => {
+//     //     console.log('anohter functino ')
+//     // }
+//     return "another"
+// }
+// let c = hello1;
+// c()
+// console.log(c()+' : c ')
+
+// "use strict";
+// console.log("Strict mode is supported!");
+// x = 5;
+// console.log('X: '+x)
 
 
 
