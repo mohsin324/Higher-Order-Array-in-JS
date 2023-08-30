@@ -186,11 +186,21 @@ console.log(rp+' rp ')
 
 // console.log(repetitiveNumbers); // Output: [ 2, 3, 5 ]
 
-let obj = {}
-obj["name"] = " Mohsin ";
-console.log(JSON.stringify(obj)+' object ')
+// let obj = {}
+// obj["name"] = " Mohsin ";
+// console.log(JSON.stringify(obj)+' object ')
 
-
+// const obj = {
+//     firstName: "Mohsin",
+//     lastName: "Munir",
+//     age: 25
+// }
+// let keys = Object.keys(obj);
+// console.log(keys)
+// console.log(`Keys: ${keys} and Type Of Keys: ${typeof(keys)}`);
+// for(i=0; keys[i] !== undefined; i++){
+//     console.log(obj[keys[i]]+ ' keys at i ')
+// }
 
 
 
